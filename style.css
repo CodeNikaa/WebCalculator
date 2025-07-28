@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button, .calc-display {
+    font-family: "Albert Sans";
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.pi, .x2, .delete, .divide, .substract, .add, .multiply, .equals {
+    background-color: #2e6ac4;
+}
+
+.calc-container {
+    width: 650px;
+    height: 884px;
+    background-color: #3F3F3F;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc-display {
+    height: 120px;
+    width: 570px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    box-shadow: inset 0 0px 10px 10px rgba(12, 12, 12, 0.4);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 25px;
+    padding-right: 25px;
+}
+.calc-buttons {
+    margin-top: 50px;
+    height: 624px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom: 31px;
+    margin-right: 31px;
+}
+
+.pi, .seven, .four, .one, .allclear {
+    margin-left: 31px;
+}
+
+.button:active {
+    background-color: #3F3F3F;
+}
+

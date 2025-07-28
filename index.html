@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>WebCalculator</title>
 </head>
 <body>
-    
+    <div class="calc-container">
+        <div class="calc-display">0</div>
+        <div class="calc-buttons">
+            <div class="first-row">
+                <button class="button pi" data-value="3.14" data-type="function">&pi;</button>
+                <button class="button x2" data-value="(x)&sup2;" data-type="function">x&sup2;</button>
+                <button class="button delete" data-value="delete" data-type="function">&larr;</button>
+                <button class="button divide" data-value="%" data-type="function">%</button>
+            </div>
+            <div class="second-row">
+                <button class="button seven" data-value="7" data-type="number">7</button>
+                <button class="button eight" data-value="8" data-type="number">8</button>
+                <button class="button nine" data-value="9" data-type="number">9</button>
+                <button class="button substract" data-value="-" data-type="function">-</button>
+            </div>
+            <div class="third-row">
+                <button class="button four" data-value="4" data-type="number">4</button>
+                <button class="button five" data-value="5" data-type="number">5</button>
+                <button class="button six" data-value="6" data-type="number">6</button>
+                <button class="button add" data-value="-" data-type="function">+</button>
+            </div>
+            <div class="fourth-row">
+                <button class="button one" data-value="1" data-type="number">1</button>
+                <button class="button two" data-value="2" data-type="number">2</button>
+                <button class="button three" data-value="3" data-type="number">3</button>
+                <button class="button multiply" data-value="x" data-type="function">x</button>
+            </div>
+            <div class="sixth-row-row">
+                <button class="button allclear" data-value="AC" data-type="function">AC</button>
+                <button class="button zero" data-value="0" data-type="number">0</button>
+                <button class="button dot" data-value="." data-type="number">.</button>
+                <button class="button equals" data-value="=" data-type="function">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
 </body>
 </html>
