@@ -39,10 +39,10 @@ function handleInput(value) {
     // Operators
     case '+': case '-': case '*': case '/':
       if (currentInput === '') return;
-      if (previousInput && operator) {
-        previousInput = evaluate(parseFloat(previousInput), parseFloat(currentInput), operator);
-      } else {
+      if (currentInput !== "") {
         previousInput = currentInput;
+      } else {
+        previousInput = evaluate(parseFloat(previousInput), parseFloat(currentInput), operator);
       }
       operator = value;
       currentInput = '';
