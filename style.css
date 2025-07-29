@@ -8,7 +8,7 @@ body {
     height: 100vh;
 }
 
-button, .calc-display {
+button, #display {
     font-family: "Albert Sans";
     font-weight: bold;
     font-size: 38px;
@@ -29,7 +29,7 @@ button, .calc-display {
     align-items: center;
 }
 
-.calc-display {
+#display {
     height: 120px;
     width: 570px;
     background-color: #d9d9d9;
